@@ -1,6 +1,6 @@
 # TITLE
 
-##Abstract
+##  Abstract
 
 ![Framework](framework_backgroud.png)
 
@@ -31,4 +31,4 @@ Below is the list of datasets used in the experiments:
     
 - **[Strawberry.00 Computer Vision Project](#)**  : 450 strawberry images.
 
-##Acknowledgments
+## Acknowledgments
