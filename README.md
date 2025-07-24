@@ -2,7 +2,7 @@
 
 ##Abstract
 
-![Framework](framework.png)
+![Framework](framework_background.png)
 
 ## Overview
 ## Data Availability
