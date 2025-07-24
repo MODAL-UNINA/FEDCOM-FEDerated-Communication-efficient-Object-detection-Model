@@ -30,3 +30,5 @@ Below is the list of datasets used in the experiments:
 - **[Strawberry-DS](#)**  : 247 RGB digital images of strawberry fruits taken at the Central Laboratory for Agricultural Climate (CLAC), Agricultural Research Center, Cairo, Egypt. The images were captured from the fruit top view considering different view angles using Sony Xperia Z2 LTE-A D6503 smartphone 20.7 MP camera. The images contain both fully-visible strawberry fruits and partially-visible strawberry fruits concealed by leaves or by other fruits.
     
 - **[Strawberry.00 Computer Vision Project](#)**  : 450 strawberry images.
+
+##Acknowledgments
