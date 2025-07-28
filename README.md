@@ -1,4 +1,4 @@
-# TITLE
+# FEDCOM: FEDerated Communication-efficient Object detection Model
 
 ##  Abstract
 
