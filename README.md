@@ -1,7 +1,11 @@
 # FEDCOM: FEDerated Communication-efficient Object detection Model
 
 ##  Abstract
+The emergence of 6G edge intelligence demands highly efficient, adaptive Machine Learning (ML) solutions that operate under severe resource constraints. In this paper, we introduce FEDCOM, a scalable framework designed to support Continual Learning (CL) in federated edge environments through selective communication and adaptive model updates. FEDCOM uses Federated Continual Learning (FCL), which combines Federated Learning with CL, and low-power optimization strategies, to minimize energy usage and bandwidth consumption during communication between server and clients. 
 
+The core idea is to reduce the environmental and computational costs of distributed training by transmitting only unfrozen (trainable) layers during communication and scheduling client participation based on a data novelty metric. This approach limits unnecessary computation and avoids redundant communication, aligning with the goals of sustainable and low-latency 6G edge intelligence. 
+
+To demonstrate its effectiveness, we tested FEDCOM in an application scenario involving object detection (OD) in precision agriculture, using the YOLOv12s model. The system leverages diverse edge datasets across multiple domains and evaluates energy consumption and OD performance in realistic scenarios. Experimental results demonstrate that FEDCOM reduces computational costs and carbon footprint compared to full retraining methods and FCL without our communication strategy, while maintaining practical detection performance. Hence, FEDCOM shows how FCL, along with scheduling and communication-efficient strategies, can be powerful in 6G TinyML real-world applications.
 ![Framework](framework_backgroud.png)
 
 ## Overview
