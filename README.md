@@ -36,3 +36,4 @@ Below is the list of datasets used in the experiments:
 - **[Strawberry.00 Computer Vision Project](#)**  : 450 strawberry images.
 
 ## Acknowledgments
+PNRR project FAIR - Future AI Research (PE00000013), Spoke 3, under the NRRP MUR program funded by the NextGenerationEU.
