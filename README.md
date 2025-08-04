@@ -77,7 +77,7 @@ $CONDA_PREFIX/bin/python 0_preprocess.py
 
 . This script will process the original datasets and save the preprocessed data in the `data/preprocessed_datasets` folder. Additional manual operations were done to generate the final data. The final datasets are then saved in the `data/datasets` folder.
 
-In case you want to use the final datasets directly, you can skip the preprocessing step and download the final datasets in the `data/datasets` folder.
+In case you want to use the final datasets directly, you can skip the preprocessing step and download the final datasets in the `data/datasets` folder. Due to the datasets size, please contact the corresponding author at the following email address to request access: francesco.piccialli@unina.it.
 
 ### Model generation
 After setting up the environment, you need to build the model configuration adapted to use only 3 classes with the following command from the `code`
