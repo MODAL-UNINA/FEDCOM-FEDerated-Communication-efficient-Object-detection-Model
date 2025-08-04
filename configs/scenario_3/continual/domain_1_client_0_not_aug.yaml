@@ -1,0 +1,12 @@
+path: ../data/datasets
+train: 
+  - Green_grapes_2/train/images
+
+val: 
+  - Green_grapes_2/val/images
+  
+test: 
+  - Green_grapes_2/test/images
+
+nc: 3
+names: ['Grape', 'Tomato', 'Strawberry']

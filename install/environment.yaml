@@ -1,0 +1,18 @@
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip=25
+  - libcurand<10.3.9
+  - flwr=1.17
+  - numpy=1.26
+  - pytorch::pytorch=2.4
+  - pytorch::pytorch-cuda=12.1
+  - pytorch::torchvision=0.19
+  - pytorch::torchaudio=2.4
+  - ultralytics=8.3.146
+  - codecarbon
+  - albumentations

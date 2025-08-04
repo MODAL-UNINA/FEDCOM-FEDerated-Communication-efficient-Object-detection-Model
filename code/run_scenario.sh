@@ -1,0 +1,23 @@
+#!/bin/bash
+
+FRAMEWORK=${1:-"FEDCOM"}
+SCENARIO=${2:-"1"}
+DOMAIN_IDS=${3:-"0,1,2"}
+SERVER_GPU_ID=${4:-"0"}
+CLIENTS_GPU_ID=${5:-"1,2,3"}
+ROUNDS_PER_DOMAIN=${6:-"51"}
+EPOCHS=${7:-"5"}
+SERVER_ADDRESS=${8:-"0.0.0.0:8080"}
+SIMILARITY_THRESHOLD=${9:-"0.75"}
+MAX_IMAGES=${10:-"20"}
+MODEL_NAME=${11:-"yolo12s_upd.yaml"}
+
+DOMAIN_IDS_ARR=(${DOMAIN_IDS//,/ })
+
+echo "Running experiment with FRAMEWORK=$FRAMEWORK, SCENARIO=$SCENARIO"
+for DOMAIN_ID in "${DOMAIN_IDS_ARR[@]}"; do
+    echo "Running experiment with DOMAIN_ID=$DOMAIN_ID"
+    bash run_experiment.sh "$FRAMEWORK" "$SCENARIO" "$DOMAIN_ID" "$SERVER_GPU_ID" \
+        "$CLIENTS_GPU_ID" "$ROUNDS_PER_DOMAIN" "$EPOCHS" "$SERVER_ADDRESS" \
+        "$SIMILARITY_THRESHOLD" "$MAX_IMAGES" "$MODEL_NAME"
+done

@@ -1,0 +1,12 @@
+path: ../data/datasets
+train:
+  - StrawDI_Db1/train_aug/images
+
+val:
+  - StrawDI_Db1/val/images
+
+test:
+  - StrawDI_Db1/test/images
+
+nc: 3
+names: ['Grape', 'Tomato', 'Strawberry']

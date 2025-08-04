@@ -1,0 +1,15 @@
+path: ../data/datasets
+train:
+  - Strawberry_Robotflow/train/images
+  - Strawberry_DS/train/images
+
+val:
+  - Strawberry_Robotflow/val/images
+  - Strawberry_DS/val/images
+
+test:
+  - Strawberry_Robotflow/test/images
+  - Strawberry_DS/test/images
+
+nc: 3
+names: ['Grape', 'Tomato', 'Strawberry']

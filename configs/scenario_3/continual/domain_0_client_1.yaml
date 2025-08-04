@@ -1,0 +1,15 @@
+path: ../data/datasets
+train:
+  - Cherry_Tomato_Dataset/train_aug/images
+  - TomatoPlantfactoryDataset/train_aug/images
+
+val:
+  - Cherry_Tomato_Dataset/val/images
+  - TomatoPlantfactoryDataset/val/images
+
+test:
+  - Cherry_Tomato_Dataset/test/images
+  - TomatoPlantfactoryDataset/test/images
+
+nc: 3
+names: ['Grape', 'Tomato', 'Strawberry']

@@ -1,0 +1,15 @@
+path: ../data/datasets
+train:
+  - LaboroTomato_2/train/images 
+  - TomatoOD_2/train/images
+
+val:
+  - LaboroTomato_2/val/images
+  - TomatoOD_2/val/images
+
+test:
+  - LaboroTomato_2/test/images
+  - TomatoOD_2/test/images
+
+nc: 3
+names: ['Grape', 'Tomato', 'Strawberry']

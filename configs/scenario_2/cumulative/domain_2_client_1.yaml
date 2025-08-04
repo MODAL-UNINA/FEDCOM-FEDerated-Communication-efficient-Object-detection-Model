@@ -1,0 +1,27 @@
+path: ../data/datasets
+train:
+  - Cherry_Tomato_Dataset_1/train_aug/images
+  - TomatoPlantfactoryDataset_1/train_aug/images
+  - Cherry_Tomato_Dataset_2/train_aug/images
+  - TomatoPlantfactoryDataset_2/train_aug/images
+  - LaboroTomato/train_aug/images
+  - TomatoOD/train_aug/images
+
+val:
+  - Cherry_Tomato_Dataset_1/val/images
+  - TomatoPlantfactoryDataset_1/val/images
+  - Cherry_Tomato_Dataset_2/val/images
+  - TomatoPlantfactoryDataset_2/val/images
+  - LaboroTomato/val/images
+  - TomatoOD/val/images
+
+test:
+  - Cherry_Tomato_Dataset_1/test/images
+  - TomatoPlantfactoryDataset_1/test/images
+  - Cherry_Tomato_Dataset_2/test/images
+  - TomatoPlantfactoryDataset_2/test/images
+  - LaboroTomato/test/images
+  - TomatoOD/test/images
+
+nc: 3
+names: ['Grape', 'Tomato', 'Strawberry']
